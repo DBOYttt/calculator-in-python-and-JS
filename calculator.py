@@ -1,29 +1,33 @@
 print("HI im calculator maked by D-BOY")
 
 print('''
-Wybierz co chcesz zrobić 
-1 - Dodać 
-2 - Odjąć 
-3 - Podzielić
-4 - Pomnożyć
-5 - Spotengować
+Choose what you want to do
+1 - Add
+2 - Subtract
+3 - Divide
+4 - Multiply
+5 - Spoteng
 ''')
 
-a = int(input("wybierz: "))
+a = int(input("Choose: "))
 
 if a == 1: 
-    b = int(input("Liczba 1: "))
-    c = int(input("Liczba 2: "))
-    print("wynik to: " + str(b + c))
+    b = int(input("Number 1: "))
+    c = int(input("Number 2: "))
+    print("the result is : " + str(b + c))
 elif a == 2:
-    b = int(input("Liczba 1: "))
-    c = int(input("Liczba 2: "))
-    print("wynik to: " + str(b - c))
+    b = int(input("Number 1: "))
+    c = int(input("Number 2: "))
+    print("the result is: " + str(b - c))
 elif a == 3:
-    b = int(input("Liczba 1: "))
-    c = int(input("Liczba 2: "))
-    print("wynik to: " + str(int(b / c)))
+    b = int(input("Number 1: "))
+    c = int(input("Number 2: "))
+    print("the result is: " + str(int(b / c)))
 elif a == 4:
-    b = int(input("Liczba 1: "))
-    c = int(input("Liczba 2: "))
-    print("wynik to: " + str(b * c))
+    b = int(input("Number 1: "))
+    c = int(input("Number 2: "))
+    print("the result is: " + str(b * c))
+elif a == 5:
+    b = int(input("Number 1: "))
+    c = int(input("Number 2: "))
+    print("the result is: " + str(b ** c))
