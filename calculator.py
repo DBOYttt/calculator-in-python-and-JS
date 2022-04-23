@@ -23,3 +23,7 @@ elif a == 3:
     b = int(input("Liczba 1: "))
     c = int(input("Liczba 2: "))
     print("wynik to: " + str(int(b / c)))
+elif a == 4:
+    b = int(input("Liczba 1: "))
+    c = int(input("Liczba 2: "))
+    print("wynik to: " + str(b * c))
