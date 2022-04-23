@@ -10,3 +10,12 @@ Wybierz co chcesz zrobić
 ''')
 
 a = int(input("wybierz: "))
+
+if a == 1: 
+    b = int(input("Liczba 1: "))
+    c = int(input("Liczba 2: "))
+    print("wynik to: " + str(b + c))
+elif a == 2:
+    b = int(input("Liczba 1: "))
+    c = int(input("Liczba 2: "))
+    print("wynik to: " + str(b - c))
